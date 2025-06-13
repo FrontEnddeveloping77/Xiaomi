@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+}
+
+header nav{
+    width: 100%;
+    height: 56px;
+    background: white;
+    align-items: center;
+    display: flex;
+    gap: 45px;
+    padding-left: 10px;
+    top: 0;
+    z-index: 20;
+    position: fixed;
+}
+
+header nav img{
+    height: 30px;
+}
+
+header nav ul{
+    font-size: 17px;
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+}
+
+header nav .ul{
+    margin-right: 35%;
+    overflow: auto;
+}
+
+header nav ul li:hover{
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*? Main */
+
+main{
+    z-index: 1;
+}
+
+/*! First-win  */
+
+.first-win{
+    width: 100%;
+    height: 600px;
+    background: url(https://i02.appmifile.com/647_operator_global/18/04/2025/7274f34d6a776f5d4208ef4a145a8b08.jpg?thumb=1&w=5120&f=webp&q=85) no-repeat center/cover;
+}
+
+/*! .Main */
+
+.main{
+    width: 100%;
+    height: auto;
+    padding: 0 4.5%;
+    background: whitesmoke;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main >h1{
+    margin-bottom: 50px;
+}
+
+.main >ul{
+    display: flex;
+    gap: 30px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main >ul li:hover{
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*! Sec-win */
+
+.sec-win{
+    width: 100%;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    padding: 1.5%;
+}
+
+.sec-win:hover .img img{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.sec-win .img{
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+}
+
+.sec-win .img img{
+    width: 100%;
+    height: 340px;
+}
+
+.sec-win .text{
+    width: 100%;
+    height: 340px;
+    background: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*! Third-win */
+
+.third-win{
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 0 0 12px 12px;
+    padding: 1.5%;
+}
+
+.third-win .divs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.third-win .divs .div{
+    width: auto;
+    height: 340px;
+    background: whitesmoke;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 32px;
+}
+
+.third-win .divs .div:hover img{
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.third-win .divs .div img{
+    width: 160px;
+    height: 160px;
+}
+
+.third-win .divs .div h2{
+    margin: 12px 0;
+}
+
+.main .boxes{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main .boxes .box{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.main .boxes .box h2{
+    font-size: 34px;
+    margin: 20px 0;
+}
+
+.main .boxes .box p{
+    font-size: 25px;
+}
+
+.main .boxes .box img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.main .icons{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 140px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.main .icons .div{
+    width: 240px;
+    height: 203px;
+    text-align: center;
+}
+
+.main .icons .div:hover{
+    color: orangered;
+    transition: .5s;
+}
+
+.main .icons .div:hover i{
+    color: orangered;
+    transition: .5s;
+}
+
+.main .icons .div i{
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.main .icons .div h3{
+    font-size: 22px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.main .icons .div p{
+    font-size: 17px;
+}
+
+/*! Footer */
+
+footer{
+    width: 100%;
+    height: 560px;
+    background: #191919;
+    padding: 64px 0 43px 43px;
+}
+
+footer .divs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+footer .divs .div{
+    width: 315px;
+    height: auto;
+}
+
+footer .divs p{
+    color: white;
+    font-size: 19px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+footer .divs ul{
+    color: gray;
+}
+
+footer .divs ul li{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+footer .divs .div ul li:hover{
+    text-decoration: underline;
+}
+
+footer .divs .box{
+    width: 408px;
+    height: auto;
+}
+
+footer .box .icons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+footer .box .icons i{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    background: gray;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer .box .icons i:hover{
+    background-color: white;
+}
+
+footer .box input{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    background-color: #191919;
+    border: 2px solid white;
+    padding-left: 30px;
+    font-size: 20px;
+    border-radius: 12px;
+    outline: none;
+}
+
+footer .box input:focus{
+    height: 55px;
+    border: 6px solid orangered;
+}
+
+footer .qator{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+
+footer .qator ul{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+footer .qator ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media (max-width: 431px) {
+
+    /* Header */
+    header nav {
+        flex-direction: column;
+        height: auto;
+        padding: 40px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    header nav .ul {
+        margin-right: 0;
+        overflow: auto;
+    }
+
+    header nav ul {
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .first-win {
+        width: 100%;
+        background: url(https://i02.appmifile.com/647_operator_global/18/04/2025/7274f34d6a776f5d4208ef4a145a8b08.jpg?thumb=1&w=5120&f=webp&q=85) no-repeat center/cover;
+    }
+
+    .main > h1 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .main > ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    /* Sec-win */
+    .sec-win {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .sec-win .img,
+    .sec-win .text {
+        width: 100%;
+        height: auto;
+    }
+
+    .sec-win .text{
+        width: 100%;
+        height: 200px;
+    }
+
+    .sec-win .text img{
+        width: 80%;
+    }
+
+    .sec-win .text h2,
+    .sec-win .text p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Third-win grid */
+    .third-win .divs {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .third-win .divs .div {
+        height: auto;
+        padding: 16px;
+    }
+
+    .third-win .divs .div img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .third-win .divs .div h2 {
+        font-size: 18px;
+    }
+
+    /* Boxes section */
+    .main .boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main .boxes .box h2 {
+        font-size: 24px;
+    }
+
+    .main .boxes .box p {
+        font-size: 18px;
+    }
+
+    .main .boxes .box img {
+        width: 100%;
+    }
+
+    /* Icons section */
+    .main .icons {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main .icons .div {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    footer .divs {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .divs .div,
+    footer .divs .box {
+        width: 100%;
+    }
+
+    footer .box input {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    footer .box .icons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    footer .qator {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer .qator ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+    }
+}
