@@ -366,7 +366,7 @@ footer .qator ul li:hover{
     /* Header */
     header nav {
         flex-direction: column;
-        height: auto;
+        height: 200px;
         padding: 40px;
         gap: 10px;
         align-items: flex-start;
